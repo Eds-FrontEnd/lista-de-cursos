@@ -1,0 +1,26 @@
+.task{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+.task-details{
+    max-width: 90%;
+    background-color: var(--graylight);
+    margin: 15px 0px;
+    padding: 15px 20px;
+    text-align: center;
+    color: var(--white);
+    border-radius: 5px;
+}
+.task-details h2{
+    margin-bottom:  5px;
+    color: var(--green);
+}
+.back-button{
+    width: 30%;
+    margin-top: 30px;
+}

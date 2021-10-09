@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green-black: rgb(92, 145, 40);
+  --green: chartreuse;
+  --gray: #222;
+  --graylight: #444;
+  --white: #eee;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 2px solid var(--green);
+  padding: 3px;
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    min-width: 320px;
+  }
+}
